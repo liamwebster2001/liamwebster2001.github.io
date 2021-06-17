@@ -129,7 +129,11 @@
 								if (config.resetForms)
 									$this.find('form').each(function() {
 										this.reset();
+
+							//Send forms.
+								if (config.Send) 
 									});
+
 
 						}, config.delay);
 
