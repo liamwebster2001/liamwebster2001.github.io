@@ -29,7 +29,7 @@ if($_POST) {
                         </div>";
     }
       
-    $recipient = "liamwebster2001@berkeley.edu";
+    $recipient = "inbox@liamwebster.xyz";
       
     $email_body .= "</div>";
  
