@@ -3,7 +3,7 @@
 	$visitor_email = $_Post["email"];
 	$message = $_Post['message'];
 
-	$email_from = 'liamcw2001@gmail.com';
+	$email_from = 'contact@liamwebster.xyz';
 
 	$email_subject = "New Form Submission"
 
@@ -11,7 +11,7 @@
 					"User Email: $visitor_email.\n".
 						"User Message: $message.\n"
 
-	$to = "liamcw2001@gmail.com"
+	$to = "contact@liamwebster.xyz"
 
 	$headers = "From: $email_from \r\n";
 
